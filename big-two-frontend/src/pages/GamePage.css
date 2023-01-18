@@ -1,0 +1,201 @@
+/* Style the overall game page container */
+.game-page {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95vh;
+}
+
+.left-side {
+    flex: 8;
+}
+
+.left-side-container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Style the board container */
+.board {
+    flex: 8;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* Style the board header */
+.board-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid black; /* Add this */
+}
+
+
+/* Style the board rows */
+.board-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: calc(80% - 2 * 1px);
+}
+
+/* Style the board cells */
+.board-cell {
+    box-sizing: border-box;
+    width: 130px;
+    height: 202px;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.board-cell img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-side {
+    flex: 2;
+}
+
+.right-side-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.player-list {
+    flex: 1;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+.player-list-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+
+}
+
+/* Style the players in the player list */
+.player {
+    margin-bottom: 10px;
+}
+
+/* Style for the chat */
+.chat {
+    flex: 1;
+    padding-left: 10px;
+    border-left: 1px solid black;
+}
+
+/* Style for the chat header */
+.chat-header {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+/* Style for chat messages */
+.chat-messages {
+    height: 200px;
+    width: 100%;
+    overflow-y: scroll; /* add scroll bar if needed */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Style for chat message */
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.chat-message-name {
+    font-weight: bold;
+}
+
+.chat-message-text {
+    margin-left: 5px;
+}
+
+/* Style the chat input */
+.chat-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid black;
+}
+
+/* Style the player hand container */
+.player-hand {
+    flex: 2;
+}
+ 
+/* Style the player hand header */
+.player-hand-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* Style the player hand cards */
+.player-hand-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/* Style the cards in the player hand */
+.card {
+    width: 65px;
+    height: 101px;
+    border: 1px solid black;
+    margin-right: -10px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+/* Style the selected state of the cards */
+.card-selected {
+    transform: scale(1.2);
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Style the chat container */
+.chat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+/* Style the messages in the chat */
+.message {
+    margin-bottom: 10px;
+}

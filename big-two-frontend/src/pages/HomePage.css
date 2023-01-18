@@ -1,0 +1,37 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.game-room-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.game-room {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.room-name {
+  font-weight: bold;
+}
+
+.player-count {
+  color: #888;
+}
+
+.game-state {
+  color: green;
+  font-weight: bold;
+}
