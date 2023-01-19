@@ -46,7 +46,7 @@ Built With
 Author
 ------
 
-*   **CuongVnZ** - [yourusername](https://github.com/CuongVnZ)
+*   **CuongVnZ** - [Github](https://github.com/CuongVnZ)
 
 License
 -------
