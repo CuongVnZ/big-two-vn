@@ -20,7 +20,7 @@ These instructions will get you a copy of the project up and running on your loc
 1.  Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/bigtwo-game.git
+git clone https://github.com/cuongvnz/big-two-vn.git
 ```
 
 2.  Install dependencies
