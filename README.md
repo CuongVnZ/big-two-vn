@@ -25,7 +25,9 @@ git clone https://github.com/cuongvnz/big-two-vn.git
 
 2.  Install dependencies
 
-`npm install`
+```sql
+npm install
+```
 
 3.  Start the server
 
